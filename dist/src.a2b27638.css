@@ -1,0 +1,29 @@
+body {
+  font-family: sans-serif;
+  margin: 20px;
+}
+
+.child {
+  background-color: forestgreen;
+  border-radius: 4px;
+  padding: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  min-height: 200px;
+}
+
+.container {
+  display: grid;
+  grid-gap: 20px;
+
+  grid-template-columns: repeat(2, minmax(300px, 1fr));
+}
+
+.child:nth-child(5) {
+  color: black;
+}
+
+
+/*# sourceMappingURL=/src.a2b27638.css.map */
